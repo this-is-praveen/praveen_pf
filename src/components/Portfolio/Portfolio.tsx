@@ -104,6 +104,9 @@ export function Portfolio() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
+                <a href="https://github.com/this-is-praveen/neo_dnd" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
                 <a href="https://this-is-praveen.github.io/neo_dnd/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
@@ -148,7 +151,7 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Portfolio V1</h3>
+              <h3>Portfolio</h3>
               <p>The One you are currently you are looking into, built with typescript react</p>
             </div>
             <footer>
