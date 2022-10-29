@@ -9,12 +9,29 @@ export const GlobalStyle = createGlobalStyle`
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
+    body::-webkit-scrollbar {
+      display: none;
+    }
+  
+    /* Hide scrollbar for IE, Edge and Firefox */
+    body {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+
     &.light{
 
       body{
         transition: 0.5s;
         background-color: #f5f5f5;
         color: var(--black);
+
+        .projects .project {
+          transition: 0.75s;
+          border: 1px solid #2b2b2b;
+          background-color: #f5f5f5;
+          color: #2b2b2b;
+        }
       }
 
       .logo{
@@ -53,6 +70,8 @@ export const GlobalStyle = createGlobalStyle`
           }
         }
       }
+
+
 
     }
   }
@@ -114,7 +133,8 @@ export const GlobalStyle = createGlobalStyle`
   .logo{
     font-size: 3rem;
     color: #FFFF;
-    &::first-letter{
+    span:last-child {
+      padding-left: 0.25rem;
       color: var(--green);
     }
   }

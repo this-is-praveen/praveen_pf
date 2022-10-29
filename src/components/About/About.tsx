@@ -25,10 +25,7 @@ export const About = () => {
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <p>
-            I develop websites and applications using HTML, CSS, and JavaScript. I am familiar with developing layouts that provide me. I'm always improving myself with each
-            project they put in my hands.
-          </p>
+          <p>I develop websites and applications and I always improving myself with each project they put in my hands.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
           <p>I am a dedicated person who pursues my dreams, hardworking and results-oriented, I always seek to achieve my best version.</p>
