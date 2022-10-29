@@ -2,8 +2,11 @@ import { Container } from "./styles";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import cssIcon from "../../assets/css-icon.svg";
+import gqlIcon from "../../assets/graphql-logo-2.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
+import mongoIcon from "../../assets/mongodb-icon-1.svg";
+import mysqlIcon from "../../assets/mysql-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
@@ -69,10 +72,25 @@ export const About = () => {
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+              <img src={gqlIcon} alt="Graph QL" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+              <img src={mysqlIcon} alt="MySQL" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.9 * 1000}>
+              <img src={mongoIcon} alt="Mongo DB" />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
           <img src="" alt="Display Picture" />
         </ScrollAnimation>
       </div>

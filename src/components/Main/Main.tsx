@@ -1,22 +1,25 @@
 import Particles from "react-tsparticles";
-import { Container } from "./styles";
-import { Hero } from "../Hero/Hero";
+import { loadFull } from "tsparticles";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
+import { Hero } from "../Hero/Hero";
 import { Portfolio } from "../Portfolio/Portfolio";
-import { loadFull } from "tsparticles";
+import { Container } from "./styles";
 
+import { useCallback } from "react";
+import apolloIcon from "../../assets/apollo-graphql-1.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
+import gqlIcon from "../../assets/graphql-logo-2.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
+import mongoIcon from "../../assets/mongodb-icon-1.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
-import { useCallback } from "react";
 
 export function Main() {
   const particlesInit = useCallback(async (engine: any) => {
@@ -208,6 +211,21 @@ export function Main() {
                 },
                 {
                   src: vscodeIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: apolloIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: gqlIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: mongoIcon,
                   width: 20,
                   height: 20,
                 },
