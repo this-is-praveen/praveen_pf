@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/praveen_pf/static/css/main.3d10672c.css",
+    "main.js": "/praveen_pf/static/js/main.77ba832e.js",
+    "static/media/Praveen_G Resume.pdf": "/praveen_pf/static/media/Praveen_G Resume.aa3f4e4671dd81cc83b2.pdf",
+    "static/media/github.png": "/praveen_pf/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/instagram.png": "/praveen_pf/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/linkedin.png": "/praveen_pf/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/illustration.svg": "/praveen_pf/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
+    "static/media/sass-icon.svg": "/praveen_pf/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
+    "static/media/mysql-icon.svg": "/praveen_pf/static/media/mysql-icon.e5a509a5d3ca7443ae6ccf379181381d.svg",
+    "static/media/node-icon.svg": "/praveen_pf/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
+    "static/media/typescript-icon.svg": "/praveen_pf/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
+    "static/media/bootstrap-icon.svg": "/praveen_pf/static/media/bootstrap-icon.be374cc9bd654654918df2362bcfb240.svg",
+    "static/media/react-icon.svg": "/praveen_pf/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
+    "index.html": "/praveen_pf/index.html",
+    "static/media/apollo-graphql-1.svg": "/praveen_pf/static/media/apollo-graphql-1.e6363c14bc68dbef72b6b703b1110bbf.svg",
+    "static/media/phone-icon.svg": "/praveen_pf/static/media/phone-icon.91617f27ac814ef5f29b533ab3d256ec.svg",
+    "static/media/graphql-logo-2.svg": "/praveen_pf/static/media/graphql-logo-2.488e5ca26ffde22d9a3d8925fce09070.svg",
+    "static/media/email-icon.svg": "/praveen_pf/static/media/email-icon.a83578f914460e952501546655b76165.svg",
+    "static/media/mongodb-icon-1.svg": "/praveen_pf/static/media/mongodb-icon-1.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/html-icon.svg": "/praveen_pf/static/media/html-icon.ebfc51e406097a90691ab82f1aa72db3.svg",
+    "static/media/css-icon.svg": "/praveen_pf/static/media/css-icon.60a6c50d5a470990f63ee17a3bbd9178.svg",
+    "static/media/vscode-icon.svg": "/praveen_pf/static/media/vscode-icon.3001bc63a45d488b7d2c332e4a2059ad.svg",
+    "static/media/js-icon.svg": "/praveen_pf/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
+    "static/media/github-icon.svg": "/praveen_pf/static/media/github-icon.c48bfb2a53c47ee345a50672e3d24e07.svg",
+    "static/media/external-link-icon.svg": "/praveen_pf/static/media/external-link-icon.97075d22dfb22a8c8d253b264e892b5f.svg",
+    "main.3d10672c.css.map": "/praveen_pf/static/css/main.3d10672c.css.map",
+    "main.77ba832e.js.map": "/praveen_pf/static/js/main.77ba832e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d10672c.css",
+    "static/js/main.77ba832e.js"
+  ]
+}
