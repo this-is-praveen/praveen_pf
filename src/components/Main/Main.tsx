@@ -239,10 +239,10 @@ export function Main() {
           },
         }}
       />
-      <Hero></Hero>
-      <About></About>
-      <Portfolio></Portfolio>
-      <Contact></Contact>
+      <Hero />
+      <About />
+      <Portfolio />
+      <Contact />
     </Container>
   );
 }
