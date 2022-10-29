@@ -4,6 +4,7 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Portfolio } from "../Portfolio/Portfolio";
+import { loadFull } from "tsparticles";
 
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
@@ -15,12 +16,24 @@ import reactIcon from "../../assets/react-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
+import { useCallback } from "react";
 
 export function Main() {
+  const particlesInit = useCallback(async (engine: any) => {
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async (container: any) => {}, []);
+
   return (
     <Container>
       <Particles
         id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
         options={{
           fullScreen: {
             enable: true,
