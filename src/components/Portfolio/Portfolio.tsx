@@ -6,7 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function Portfolio() {
   return (
     <Container id="portfolio">
-      <h2>Meu portfólio</h2>
+      <h2>My Portfolio</h2>
 
       <div className="projects">
         <ScrollAnimation animateIn="flipInX">
@@ -27,24 +27,23 @@ export function Portfolio() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/joaotuliojt/fc-squad43" target="_blank" rel="noreferrer">
+                <a href="https://github.com/this-is-praveen/PlatyPlus" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
+                </a>
+                <a href="https://this-is-praveen.github.io/PlatyPlus/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="PlatyPlus site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>FCallendar</h3>
-              <p>
-                Uma aplicação Web realizada durante o Hackathon do programa de formação da <a href="https://www.fcamara.com.br/"> FCamara</a>. Esta aplicação serve para ajudar na
-                volta do trabalho remoto para o presencial.
-              </p>
+              <h3>Platyplus</h3>
+              <p>A Simple E-Commerce website built using React with Redux as a state Management and uses Rest API for Data</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Node</li>
-                <li>Express</li>
-                <li>MySql</li>
-                <li>Ejs</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>GH Pages</li>
               </ul>
             </footer>
           </div>
@@ -68,22 +67,57 @@ export function Portfolio() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/joaotuliojt/github-search" target="_blank" rel="noreferrer">
+                <a href="https://github.com/this-is-praveen/graphql" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
-                <a href="https://github-search-blond.vercel.app/" target="_blank" rel="noreferrer">
+              </div>
+            </header>
+            <div className="body">
+              <h3>GraphQL Project</h3>
+              <p>An Advanced project is built using React, GQL and mongo as the entire application state are managed by the project</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Graph QL</li>
+                <li>Mongo DB</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://this-is-praveen.github.io/neo_dnd/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Github Searcher</h3>
-              <p>Uma versão mais agradável para ver seu perfil do GitHub, inclui visualização de dados , repositórios, compartilhamento entre outros.</p>
+              <h3>React DND Neo</h3>
+              <p>React project built using beautiful-dnd package which a complex data can be simply managed with drag and drop and had an ability to find the records</p>
+              <p>Project with 0 lint and 100% settled sonar</p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>React</li>
-                <li>Typescript</li>
+                <li>Javascript</li>
                 <li>Styled Components</li>
               </ul>
             </footer>
@@ -108,22 +142,19 @@ export function Portfolio() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://joaotuliojt.github.io/sunnyside-agency/" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Sunnyside agency</h3>
-              <p>
-                Uma lading page de uma empresa fictícia proposta pelo <a href="https://www.frontendmentor.io/">Frontend Mentor.</a>
-              </p>
+              <h3>Portfolio V1</h3>
+              <p>The One you are currently you are looking into, built with typescript react</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
+                <li>React</li>
+                <li>Typescript</li>
               </ul>
             </footer>
           </div>
@@ -146,96 +177,21 @@ export function Portfolio() {
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
+
               <div className="project-links">
-                <a href="https://joaotulio.vercel.app/" target="_blank" rel="noreferrer">
+                <a href="https://replit.com/@Praveen_G" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Portfólio V1</h3>
-              <p>Uma versão alternativa de meu portfólio, utilizando VueJs.</p>
+              <h3>100 days of code</h3>
+              <p>where i completed 100 days of programming in C & also participated and mentored in python version.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>VueJs</li>
-                <li>JavaScript</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/joaotuliojt/dtmoney-trilha-reactjs" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visitar site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Dtmoney</h3>
-              <p>Um gerenciador de finanças para analisar seus ganhos, gastos e ter um controle maior de suas finanças.</p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>VueJs</li>
-                <li>JavaScript</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/joaotuliojt/dv-musica-library-page" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visitar site" />
-                </a>
-                <a href="https://joaotuliojt.github.io/dv-musica-library-page/" target="_blank" rel="noreferrer">
-                  <img src={externalLinkIcon} alt="Visitar site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Music Library</h3>
-              <p>Uma interface para uma biblioteca de músicas, semelhante ao Spotify.</p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaSript</li>
+                <li>C</li>
+                <li>Python</li>
               </ul>
             </footer>
           </div>

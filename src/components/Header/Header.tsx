@@ -1,9 +1,10 @@
-import { Container } from "./styles";
-import { BrowserRouter as Router } from "react-router-dom";
-import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { HashLink, NavHashLink } from "react-router-hash-link";
+import { Container } from "./styles";
 
-import Curriculo from "../../assets/CV_JoaoTulio.pdf";
+import Resume from "../../assets/Praveen_G Resume.pdf";
+
 export function Header() {
   const [isActive, setActive] = useState(false);
 
@@ -40,8 +41,8 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={Curriculo} download className="button">
-            CV
+          <a href={Resume} download className="button">
+            Resume
           </a>
         </nav>
 

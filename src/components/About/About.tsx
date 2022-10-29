@@ -32,7 +32,7 @@ export const About = () => {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Primary Skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">

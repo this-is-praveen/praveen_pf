@@ -11,7 +11,7 @@ export function Footer() {
     <Container className="footer">
       <a href="/" className="logo">
         <span>G</span>
-        <span>Praveen</span>
+        <span style={{ paddingLeft: "0.25rem" }}>Praveen</span>
       </a>
       <div>
         <p>
