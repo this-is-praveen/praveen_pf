@@ -10,6 +10,7 @@ import mysqlIcon from "../../assets/mysql-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
+import PortFolioFoto from "../../assets/Portfolio_Foto.png";
 
 export const About = () => {
   return (
@@ -87,8 +88,8 @@ export const About = () => {
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src="" alt="Display Picture" />
+        <ScrollAnimation animateIn="fadeInRight" animateOut="fadeInRight" offset={100} delay={0.5 * 1000}>
+          <img src={PortFolioFoto} alt="Display Picture" style={{ height: 500 }} />
         </ScrollAnimation>
       </div>
     </Container>

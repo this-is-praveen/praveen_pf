@@ -3,10 +3,10 @@ import githubIcon from "../../assets/github-icon.svg";
 import externalLinkIcon from "../../assets/external-link-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export function Portfolio() {
+export function Work() {
   return (
-    <Container id="portfolio">
-      <h2>My Portfolio</h2>
+    <Container id="work">
+      <h2>My Work's</h2>
 
       <div className="projects">
         <ScrollAnimation animateIn="flipInX">

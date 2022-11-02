@@ -3,7 +3,7 @@ import { loadFull } from "tsparticles";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Hero } from "../Hero/Hero";
-import { Portfolio } from "../Portfolio/Portfolio";
+import { Work } from "../Work/Work";
 import { Container } from "./styles";
 
 import { useCallback } from "react";
@@ -272,7 +272,7 @@ export function Main() {
       />
       <Hero />
       <About />
-      <Portfolio />
+      <Work />
       <Contact />
     </Container>
   );
