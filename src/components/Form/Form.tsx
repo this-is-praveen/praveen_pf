@@ -42,6 +42,8 @@ export function Form() {
       </ContainerSucces>
     );
   }
+  const html = document.getElementsByTagName("html")[0];
+  const captchaTheme = html.className === "light" ? "light" : "dark";
 
   return (
     <Container>
@@ -69,7 +71,8 @@ export function Form() {
         />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
         <ReCAPTCHA
-          sitekey="6LeRSdEiAAAAAO7HRTtMxrvhgnBHKEqiwJ1PfS7G"
+          sitekey="6LcHU9EiAAAAALJfHeYWetBK1fIEtzp7CRM4wgyo"
+          theme={captchaTheme}
           onChange={() => {
             setIsHuman(true);
           }}
