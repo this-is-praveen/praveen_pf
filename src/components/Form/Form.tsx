@@ -14,8 +14,6 @@ export function Form() {
   const [message, setMessage] = useState("");
   const { theme } = React.useContext(ThemeContext);
 
-  console.log("theme :>> ", theme);
-
   function verifyEmail(email: string) {
     setValidEmail(!!validator.isEmail(email));
   }
