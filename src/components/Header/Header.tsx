@@ -1,16 +1,21 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 import { Container } from "./styles";
 
 import Resume from "../../assets/Praveen_G Resume.pdf";
+import { Theme, ThemeContext } from "../../theme-context";
 
 export function Header() {
   const [isActive, setActive] = useState(false);
+  const { setTheme } = React.useContext(ThemeContext);
 
   function toggleTheme() {
     const html = document.getElementsByTagName("html")[0];
     html.classList.toggle("light");
+    setTheme((prevTheme: Theme) => {
+      return prevTheme === "light" ? "dark" : "light";
+    });
   }
 
   function closeMenu() {
@@ -25,7 +30,13 @@ export function Header() {
           <span>G</span>
         </HashLink>
 
-        <input onChange={toggleTheme} className="container_toggle" type="checkbox" id="switch" name="mode" />
+        <input
+          onChange={toggleTheme}
+          className="container_toggle"
+          type="checkbox"
+          id="switch"
+          name="mode"
+        />
         <label htmlFor="switch">Toggle</label>
 
         <nav className={isActive ? "active" : ""}>
