@@ -21,15 +21,27 @@ export const About = () => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            Myself Praveen, I computer science engineer with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same
-            time challenge me. Improved my skills as a Front-End and Back-End developer
+            Myself Praveen, I computer science engineer with a great passion for
+            programming. I am passionate about delivering solutions that add to
+            people's lives and at the same time challenge me. Improved my skills
+            as a Front-End and Back-End developer
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <p>I develop websites and applications and I always improving myself with each project they put in my hands.</p>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={0.4 * 1000}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
+          <p>
+            I develop websites and applications and I always improving myself
+            with each project they put in my hands.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-          <p>I am a dedicated person who pursues my dreams, hardworking and results-oriented, I always seek to achieve my best version.</p>
+          <p>
+            I am a dedicated person who pursues my dreams, hardworking and
+            results-oriented, I always seek to achieve my best version.
+          </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
@@ -88,8 +100,17 @@ export const About = () => {
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" animateOut="fadeInRight" offset={100} delay={0.5 * 1000}>
-          <img src={PortFolioFoto} alt="Display Picture" style={{ height: 500 }} />
+        <ScrollAnimation
+          animateIn="fadeInRight"
+          animateOut="fadeInRight"
+          offset={100}
+          delay={0.5 * 1000}
+        >
+          <img
+            src={PortFolioFoto}
+            alt={"About section - My Pictute"}
+            style={{ height: 500 }}
+          />
         </ScrollAnimation>
       </div>
     </Container>
