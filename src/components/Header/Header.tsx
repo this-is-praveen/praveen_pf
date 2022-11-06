@@ -5,10 +5,13 @@ import { Container } from "./styles";
 
 import Resume from "../../assets/Praveen_G Resume.pdf";
 import { Theme, ThemeContext } from "../../theme-context";
+import { useClock } from "../../Time";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export function Header() {
   const [isActive, setActive] = useState(false);
   const { setTheme } = React.useContext(ThemeContext);
+  const date = useClock();
 
   function toggleTheme() {
     const html = document.getElementsByTagName("html")[0];
@@ -55,6 +58,18 @@ export function Header() {
           <a href={Resume} download className="button">
             Resume
           </a>
+          <ScrollAnimation
+            animateIn="bounce"
+            delay={2000}
+            animateOnce={true}
+            initiallyVisible={true}
+          >
+            <div>
+              <p style={{ position: "absolute", bottom: 28 }}>
+                {date.toLocaleTimeString()}
+              </p>
+            </div>
+          </ScrollAnimation>
         </nav>
 
         <div

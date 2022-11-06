@@ -21,7 +21,7 @@ export const About = () => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            Myself Praveen, I computer science engineer with a great passion for
+            Howdy, I computer science engineer with a great passion for
             programming. I am passionate about delivering solutions that add to
             people's lives and at the same time challenge me. Improved my skills
             as a Front-End and Back-End developer
