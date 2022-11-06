@@ -98,8 +98,8 @@ export const About = () => {
       <div className="about-image">
         <ScrollAnimation
           animateIn="fadeInRight"
-          animateOut="fadeInRight"
-          offset={100}
+          animateOut="fadeOutRight"
+          offset={50}
           delay={0.5 * 1000}
         >
           <img
