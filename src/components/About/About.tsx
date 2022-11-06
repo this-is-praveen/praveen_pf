@@ -102,11 +102,9 @@ export const About = () => {
           offset={50}
           delay={0.5 * 1000}
         >
-          <img
-            src={PortFolioFoto}
-            alt={"About section - My Pictute"}
-            style={{ height: 500 }}
-          />
+          <div className="about-image-background">
+            <img src={PortFolioFoto} alt={"About section - My Pictute"} />
+          </div>
         </ScrollAnimation>
       </div>
     </Container>
