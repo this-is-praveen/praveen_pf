@@ -1,8 +1,8 @@
-on: push
+'on': push
 jobs:
   build-node:
     runs-on: ubuntu-latest
-    container: node:16
-  steps:
-    - run: yarn predeploy
-    - run: yarn deploy
+    container: 'node:16'
+    steps:
+      - run: npm run predeploy
+      - run: npm run deploy
