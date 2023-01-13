@@ -85,6 +85,13 @@ export function Work() {
                 >
                   <img src={githubIcon} alt="GitHub" />
                 </a>
+                <a
+                  href="https://pgdex.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLinkIcon} alt="Visit site" />
+                </a>
               </div>
             </header>
             <div className="body">
@@ -128,13 +135,6 @@ export function Work() {
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="GitHub" />
-                </a>
-                <a
-                  href="https://pgdex.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLinkIcon} alt="Visit site" />
                 </a>
               </div>
             </header>
