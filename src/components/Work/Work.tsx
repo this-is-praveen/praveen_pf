@@ -79,11 +79,62 @@ export function Work() {
               </svg>
               <div className="project-links">
                 <a
+                  href="https://github.com/this-is-praveen/PG-Dex"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>PG DEX</h3>
+              <p>
+                A Pokedex web app built by React & Tailwind with the help of
+                PokeApi
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a
                   href="https://github.com/this-is-praveen/graphql"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="GitHub" />
+                </a>
+                <a
+                  href="https://pgdex.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLinkIcon} alt="Visit site" />
                 </a>
               </div>
             </header>
@@ -134,7 +185,7 @@ export function Work() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visit site" />
                 </a>
               </div>
             </header>
@@ -237,8 +288,8 @@ export function Work() {
             <div className="body">
               <h3>Scenic</h3>
               <p>
-                The Site that built with Next JS and the page is rendered with Static Site Generation
-                You can create and post any scenario's
+                The Site that built with Next JS and the page is rendered with
+                Static Site Generation You can create and post any scenario's
               </p>
             </div>
             <footer>
@@ -274,7 +325,7 @@ export function Work() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visit site" />
                 </a>
               </div>
             </header>

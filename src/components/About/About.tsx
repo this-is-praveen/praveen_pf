@@ -103,7 +103,7 @@ export const About = () => {
           delay={0.5 * 1000}
         >
           <div className="about-image-background">
-            <img src={PortFolioFoto} alt={"About section - My Picture"} />
+            <img src={PortFolioFoto} alt={"About section"} />
           </div>
         </ScrollAnimation>
       </div>
