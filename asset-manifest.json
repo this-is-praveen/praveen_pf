@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/praveen_pf/static/css/main.b3eeeea7.css",
-    "main.js": "/praveen_pf/static/js/main.0b627a81.js",
+    "main.js": "/praveen_pf/static/js/main.6d81ee8d.js",
     "static/media/Praveen_G Resume.pdf": "/praveen_pf/static/media/Praveen_G Resume.aa3f4e4671dd81cc83b2.pdf",
     "static/media/Portfolio_Foto.png": "/praveen_pf/static/media/Portfolio_Foto.32fbb2582f32f69628f6.png",
     "static/media/github.png": "/praveen_pf/static/media/github.a855c3975c028d8069f5.png",
@@ -27,10 +27,10 @@
     "static/media/github-icon.svg": "/praveen_pf/static/media/github-icon.c48bfb2a53c47ee345a50672e3d24e07.svg",
     "static/media/external-link-icon.svg": "/praveen_pf/static/media/external-link-icon.97075d22dfb22a8c8d253b264e892b5f.svg",
     "main.b3eeeea7.css.map": "/praveen_pf/static/css/main.b3eeeea7.css.map",
-    "main.0b627a81.js.map": "/praveen_pf/static/js/main.0b627a81.js.map"
+    "main.6d81ee8d.js.map": "/praveen_pf/static/js/main.6d81ee8d.js.map"
   },
   "entrypoints": [
     "static/css/main.b3eeeea7.css",
-    "static/js/main.0b627a81.js"
+    "static/js/main.6d81ee8d.js"
   ]
 }
